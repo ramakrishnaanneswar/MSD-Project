@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="Rk.css">
+</head>
+<body>
+    <header>
+        <h1>Inventory Management System</h1>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Product Management</h2>
+            <form>
+                <label>Product Name:</label>
+                <input type="text" placeholder="Enter product name" required>
+                <label>Category:</label>
+                <input type="text" placeholder="Enter category" required>
+                <label>Price:</label>
+                <input type="number" placeholder="Enter price" required>
+                <label>Supplier:</label>
+                <input type="text" placeholder="Enter supplier name" required>
+                <button type="submit">Save Product</button>
+            </form>
+        </section>
+        <section class="form-section">
+            <h2>Stock Tracking</h2>
+            <form>
+                <label>Stock In:</label>
+                <input type="number" placeholder="Enter stock added">
+                <label>Stock Out:</label>
+                <input type="number" placeholder="Enter stock removed">
+                <button type="submit">Update Stock</button>
+            </form>
+        </section>
+        <section class="form-section">
+            <h2>Restock Alerts</h2>
+            <form>
+                <label>Low Stock Level:</label>
+                <input type="number" placeholder="Enter alert level" required>
+                <button type="submit">Set Alert</button>
+            </form>
+        </section>
+        <section class="form-section">
+            <h2>Supplier Management</h2>
+            <form>
+                <label>Supplier Name:</label>
+                <input type="text" placeholder="Enter supplier name" required>
+                <label>Contact Info:</label>
+                <input type="text" placeholder="Enter contact details" required>
+                <button type="submit">Save Supplier</button>
+            </form>
+        </section>
+        <section class="form-section">
+            <h2>User Roles</h2>
+            <form>
+                <label>Select Role:</label>
+                <select required>
+                    <option value="">Choose role</option>
+                    <option value="admin">Admin</option>
+                    <option value="staff">Staff</option>
+                </select>
+                <button type="submit">Assign Role</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
